@@ -1,0 +1,15 @@
+.group {
+  
+    margin:auto;
+    background: rgb(162 218 255);
+    padding: 15px;
+    margin-top:12px;
+}
+.tableClass{
+    margin:auto; 
+    width: 70%; 
+    margin-top: 30px;
+}
+.banks{
+    padding: 15px;
+}

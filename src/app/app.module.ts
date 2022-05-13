@@ -14,7 +14,7 @@ import {
 } from '@angular/material';
 
 import { HomePageComponent } from './component/home-page/home-page.component';
-import { SearchBarComponent } from './component/search-bar/search-bar.component';
+// import { SearchBarComponent } from './component/search-bar/search-bar.component';
 import { DataService } from './data.service';
 import { HttpClientModule } from '@angular/common/http';
 import { NgxPaginationModule } from 'ngx-pagination';
@@ -24,7 +24,7 @@ import { NgxPaginationModule } from 'ngx-pagination';
   declarations: [
     AppComponent,
     HomePageComponent,
-    SearchBarComponent
+    // SearchBarComponent
   ],
   imports: [
     BrowserModule,

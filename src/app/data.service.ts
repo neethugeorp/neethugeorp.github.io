@@ -18,7 +18,9 @@ export class DataService {
   ) { }
 
 
-  getPosts(): Observable<Post[]>{
+  getPosts(xyz): Observable<Post[]>{
+    console.log(xyz);
+    this.postUrl = "https://vast-shore-74260.herokuapp.com/banks?city="+xyz;
     return this.http.get<Post[]>(this.postUrl);
     
   }

@@ -7,9 +7,26 @@
 }
 .tableClass{
     margin:auto; 
-    width: 70%; 
+    width: 85%; 
     margin-top: 30px;
 }
 .banks{
     padding: 15px;
+}
+.searchbox{
+    width: 100%;
+}
+.center_div{
+    text-align: center;
+}
+
+.select-option{
+    padding: 7px;
+    border: 1px solid #aaa;
+    border-radius: 3px;
+}
+.spinner{
+    width: 100%;
+    display: flex;
+    justify-content: center;
 }
